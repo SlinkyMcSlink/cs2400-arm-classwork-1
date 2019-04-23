@@ -8,8 +8,11 @@ Follow the instructions for each of the following code samples in [Compliler Exp
 
 1. [printf](https://godbolt.org/z/y2YKew)
    1. What is the library function that is called?
+      a. stdio.h is the library which controls I/O operations (printf)
    2. Research the implementation (source code) of this function.
+      a. The source code for the library is semi unclear to where the implementation of              printf is, therefore:
    3. Find out if the program directly executes the output operation or it makes a *system call* to the operating system.
+      a. I am not sure if it calls the operating system.  I see a lot of method calls      within the source code, however I am not sure if that means it's making a call to the operating system.
    
 2. [malloc](https://godbolt.org/z/kAZX7x)
    1. How are the arguments passed to `malloc` and `free`?
